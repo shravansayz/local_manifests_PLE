@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="shravansayz" fetch="https://github.com/shravansayz" clone-depth="1" />
+    <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
+    <!-- Repos -->
+    <project path="device/realme/RMX1901" name="device_realme_RMX1901" remote="shravansayz" revision="test" />
+    <project path="kernel/realme/sdm710" name="kernel_realme_sdm710" remote="shravansayz" revision="14" />
+    <project path="vendor/realme/RMX1901" name="vendor_realme_RMX1901" remote="shravansayz" revision="14" />
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+</manifest>
